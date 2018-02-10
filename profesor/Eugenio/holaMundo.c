@@ -56,6 +56,9 @@ int main (int argc, char **argv) {
 
 	MPI_Finalize();
 
+	while(1)
+		getc(stdin);
+
 	return 0;
 
 }
